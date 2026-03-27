@@ -1,0 +1,3 @@
+/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/rebuild_cache.dir
+/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir
+/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/edit_cache.dir
