@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/weng/Cmake/5_CmakePractice/add.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/head.h
+
+/home/weng/Cmake/5_CmakePractice/div.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/head.h
+
+/home/weng/Cmake/5_CmakePractice/head.h
+
+/home/weng/Cmake/5_CmakePractice/main.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/head.h
+
+/home/weng/Cmake/5_CmakePractice/mult.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/head.h
+
+/home/weng/Cmake/5_CmakePractice/sub.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/head.h
+
