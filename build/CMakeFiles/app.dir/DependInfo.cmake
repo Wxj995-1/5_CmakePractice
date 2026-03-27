@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weng/Cmake/5_CmakePractice/add.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/add.cpp.o"
-  "/home/weng/Cmake/5_CmakePractice/div.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/div.cpp.o"
-  "/home/weng/Cmake/5_CmakePractice/main.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/main.cpp.o"
-  "/home/weng/Cmake/5_CmakePractice/mult.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/mult.cpp.o"
-  "/home/weng/Cmake/5_CmakePractice/sub.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/sub.cpp.o"
+  "/home/weng/Cmake/5_CmakePractice/src/add.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/src/add.cpp.o"
+  "/home/weng/Cmake/5_CmakePractice/src/div.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/src/div.cpp.o"
+  "/home/weng/Cmake/5_CmakePractice/src/main.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/src/main.cpp.o"
+  "/home/weng/Cmake/5_CmakePractice/src/mult.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/src/mult.cpp.o"
+  "/home/weng/Cmake/5_CmakePractice/src/sub.cpp" "/home/weng/Cmake/5_CmakePractice/build/CMakeFiles/app.dir/src/sub.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # Targets to which this target links.

@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/weng/Cmake/5_CmakePractice/add.cpp
+../include/head.h
+
+/home/weng/Cmake/5_CmakePractice/src/add.cpp
 stdio.h
 -
 head.h
-/home/weng/Cmake/5_CmakePractice/head.h
+/home/weng/Cmake/5_CmakePractice/src/head.h
 
-/home/weng/Cmake/5_CmakePractice/div.cpp
+/home/weng/Cmake/5_CmakePractice/src/div.cpp
 stdio.h
 -
 head.h
-/home/weng/Cmake/5_CmakePractice/head.h
+/home/weng/Cmake/5_CmakePractice/src/head.h
 
-/home/weng/Cmake/5_CmakePractice/head.h
-
-/home/weng/Cmake/5_CmakePractice/main.cpp
+/home/weng/Cmake/5_CmakePractice/src/main.cpp
 stdio.h
 -
 head.h
-/home/weng/Cmake/5_CmakePractice/head.h
+/home/weng/Cmake/5_CmakePractice/src/head.h
 
-/home/weng/Cmake/5_CmakePractice/mult.cpp
+/home/weng/Cmake/5_CmakePractice/src/mult.cpp
 stdio.h
 -
 head.h
-/home/weng/Cmake/5_CmakePractice/head.h
+/home/weng/Cmake/5_CmakePractice/src/head.h
 
-/home/weng/Cmake/5_CmakePractice/sub.cpp
+/home/weng/Cmake/5_CmakePractice/src/sub.cpp
 stdio.h
 -
 head.h
-/home/weng/Cmake/5_CmakePractice/head.h
+/home/weng/Cmake/5_CmakePractice/src/head.h
 
