@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -fPIC   -std=gnu++11
 
-CXX_DEFINES = -Dcalc_EXPORTS
+CXX_DEFINES = -DDEBUG -Dcalc_EXPORTS
 
 CXX_INCLUDES = -I/home/weng/Cmake/5_CmakePractice/v2/include 
 

@@ -3,6 +3,10 @@
 
 int main()
 {
+
+#ifdef DEBUG
+  printf("我是一个程序猿, 我不会爬树...\n");
+#endif
   int a = 20;
   int b = 12;
   printf("a = %d,b = %d\n", a, b);

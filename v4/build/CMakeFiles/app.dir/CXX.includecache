@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+
+/home/weng/Cmake/5_CmakePractice/v4/main.cpp
+stdio.h
+-
+head.h
+/home/weng/Cmake/5_CmakePractice/v4/head.h
+

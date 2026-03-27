@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named app
+
+# Build rule for target.
+app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
+
+#=============================================================================
 # Target rules for targets named calc
 
 # Build rule for target.
@@ -129,6 +142,7 @@ src/add.o: src/add.cpp.o
 
 # target to build an object file
 src/add.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.o
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.cpp.o
 .PHONY : src/add.cpp.o
 
@@ -138,6 +152,7 @@ src/add.i: src/add.cpp.i
 
 # target to preprocess a source file
 src/add.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.i
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.cpp.i
 .PHONY : src/add.cpp.i
 
@@ -147,6 +162,7 @@ src/add.s: src/add.cpp.s
 
 # target to generate assembly for a file
 src/add.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/add.cpp.s
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.cpp.s
 .PHONY : src/add.cpp.s
 
@@ -156,6 +172,7 @@ src/div.o: src/div.cpp.o
 
 # target to build an object file
 src/div.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/div.cpp.o
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.cpp.o
 .PHONY : src/div.cpp.o
 
@@ -165,6 +182,7 @@ src/div.i: src/div.cpp.i
 
 # target to preprocess a source file
 src/div.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/div.cpp.i
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.cpp.i
 .PHONY : src/div.cpp.i
 
@@ -174,6 +192,7 @@ src/div.s: src/div.cpp.s
 
 # target to generate assembly for a file
 src/div.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/div.cpp.s
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.cpp.s
 .PHONY : src/div.cpp.s
 
@@ -183,6 +202,7 @@ src/mult.o: src/mult.cpp.o
 
 # target to build an object file
 src/mult.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/mult.cpp.o
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.cpp.o
 .PHONY : src/mult.cpp.o
 
@@ -192,6 +212,7 @@ src/mult.i: src/mult.cpp.i
 
 # target to preprocess a source file
 src/mult.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/mult.cpp.i
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.cpp.i
 .PHONY : src/mult.cpp.i
 
@@ -201,6 +222,7 @@ src/mult.s: src/mult.cpp.s
 
 # target to generate assembly for a file
 src/mult.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/mult.cpp.s
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.cpp.s
 .PHONY : src/mult.cpp.s
 
@@ -210,6 +232,7 @@ src/sub.o: src/sub.cpp.o
 
 # target to build an object file
 src/sub.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/sub.cpp.o
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.cpp.o
 .PHONY : src/sub.cpp.o
 
@@ -219,6 +242,7 @@ src/sub.i: src/sub.cpp.i
 
 # target to preprocess a source file
 src/sub.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/sub.cpp.i
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.cpp.i
 .PHONY : src/sub.cpp.i
 
@@ -228,6 +252,7 @@ src/sub.s: src/sub.cpp.s
 
 # target to generate assembly for a file
 src/sub.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/sub.cpp.s
 	$(MAKE) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.cpp.s
 .PHONY : src/sub.cpp.s
 
@@ -238,8 +263,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... calc"
 	@echo "... edit_cache"
+	@echo "... app"
+	@echo "... calc"
 	@echo "... src/add.o"
 	@echo "... src/add.i"
 	@echo "... src/add.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cpp.o  -o app  -L/home/weng/Cmake/5_CmakePractice/v3/lib1 -Wl,-rpath,/home/weng/Cmake/5_CmakePractice/v3/lib1 -lcalc 

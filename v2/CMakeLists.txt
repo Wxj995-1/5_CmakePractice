@@ -26,6 +26,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 set(EXECUTABLE_OUTPUT_PATH ${HOME}/ofile)
 set(LIBRARY_OUTPUT_PATH ${HOME}/oso)
 
+add_definitions(-DDEBUG)
+
 #生成执行文件
 #add_executable(app ${SRC})
 
